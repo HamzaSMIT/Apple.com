@@ -1,0 +1,518 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E6E6E6;
+}
+.container{ 
+    width: 980px;
+    height: 734px;
+    margin: 250px auto 250px auto;
+    padding: 30px;
+    background-color: #E6E6E6;
+    background-image: url(./Images/2up_device__bj78k7ur5s82_large.jpg);
+    background-position: 70% 100%;
+    background-size: cover;
+}
+.navbar-menu{
+    background-color: black;
+    margin-bottom: 1000px;
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+    color: aliceblue;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fbfbfd;
+}
+nav{
+    width: 100%;
+    height: 48px;
+    line-height: 45px;  
+    position:fixed ;
+    background-color: #141414b2;
+    
+}
+nav .logo{
+    margin: 0px 0px 0px 12em ;
+    padding: 3px 14px;
+    width: 14px;
+    cursor: pointer;
+    position: fixed;
+}
+nav ul{
+    float: right;
+    position: fixed;
+    margin-left: 255px;
+}
+nav li{
+    display: inline-block;
+    list-style:none ;
+    position: fixed;
+}
+nav li{
+    font-size: 13px;
+    font-weight:lighter;
+    color: #e6e6e6c7;
+    text-decoration: none;
+    position:sticky;
+    padding: 1px 14px;
+    margin: 0px 8px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    justify-content: space-between;
+}
+.picb{
+    background-color: #fbfbfd;
+    margin-top: 70px;
+    width: 100%;
+    height: 320px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat:no-repeat;
+}
+.link{
+    text-decoration: none;
+    color: #2997;
+}
+header .link h1{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 80px ;
+    font-size: 40px;
+    color: rgb(44, 43, 43);
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    margin-top: var(navbar-menu);
+}
+header .link p{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 10px ;
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    margin-top: var(navbar-menu);
+}
+header .links a{
+    text-decoration: none;
+    color: #2997ff;
+}
+header .links{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 19px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2997ff;
+    position: relative;
+    margin-top: var(navbar-menu);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}  
+/* header .links .linkthree {
+    text-decoration: none;
+}
+header .links .linkthree p{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 32em;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #06c;
+    position: relative;
+}   */
+.pictwo{
+    background-color: #060028;
+    margin-top: 50px;
+    width: 100%;
+    height: 610px;
+}
+.pic2{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.pic2h2{
+    display: flex;
+    margin-top: 20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;
+    color: #fbfbfd;
+    justify-content: center;
+}
+.pic2p p{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 10px ;
+    font-size: 25px;
+    color: #e6e6e6c7;
+    text-align: center;
+}
+.pic2link{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}  
+.pic2link a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #2997ff;
+}
+.picthree{
+    background-color: black;
+    margin-top: 80px;
+    width: 100%;
+    height: 610px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.one{
+    height: 80px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+.two{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+}
+.picthree a{
+    text-decoration: none;
+}
+.picthree p{
+    margin-top: 10px;
+    position: relative;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+    color: #fbfbfd;
+    display: flex;
+    justify-content: center;
+}
+.picthree span{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.picthree a{
+    color: #2997ff;
+}
+/* .twoboxes{
+    display: block;
+}
+.foronebox{
+    width: 50%;
+    height: 624px;
+    background-color: #060028;
+    display: inline;
+}
+.onebox{
+    width: 40%;
+    height: 624px;
+    background-color: #060028;
+}
+.fortwobox{
+    width: 50%;
+    height: 624px;
+    background-color: #2997ff;
+    display: inline-block;
+}
+.twobox{
+    width: 40%;
+    height: 610px;
+    margin-bottom: 60px;
+}
+ */
+
+.middlearea2 {
+    margin: 20px 0px 10px 0px;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+
+.fourthbgimg {
+    background-image: url(./Images/promo_apple_watch_ultra.jpg);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    /* border: 1px solid black; */
+}
+
+.fourthbgimg img{
+    width: 170px;
+    height: 70px;
+}
+.fourthbgimg p {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 25px;
+    /* font-weight: 600; */
+    color: rgb(44, 43, 43);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fourthbgimg a{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2997ff;
+}
+
+.fourthbgimg li {
+    display: inline;
+}
+
+
+.buy {
+    margin-left: 20px;
+}
+
+
+
+
+.fifthbgimg {
+    background-image: url(./Images/beyonce_promo__c8bt5lllfl2e_medium.jpg);
+    color: rgb(255, 255, 255);
+    width: 49.5%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.fifthbgimg p {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fbfbfd;
+}
+
+.fifthbgimg li {
+    display: inline;
+}
+
+.fifthbgimg a{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2997ff;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.middlearea3 {
+    margin: 20px 0px 10px 0px;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+
+.sixbgimg {
+    background-image: url(./Images/promo_airpods_pro.jpg);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    /* border: 1px solid black; */
+}
+
+.sixbgimg img{
+    width: 170px;
+    height: 70px;
+}
+.sixbgimg h1{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;
+    color: #fbfbfd;
+}
+.sixbgimg p {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 25px;
+    /* font-weight: 600; */
+    color: #fbfbfd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sixbgimg a{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2997ff;
+}
+
+.sixbgimg li {
+    display: inline;
+}
+
+
+.buy {
+    margin-left: 20px;
+}
+
+
+
+
+.sevenbgimg {
+    background-image: url(./Images/promo_ipad.jpg);
+    color: rgb(255, 255, 255);
+    width: 49.5%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+.sevenbgimg h1{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;
+    color: rgb(44, 43, 43);
+}
+.sevenbgimg p {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(44, 43, 43);
+}
+
+.sevenbgimg li {
+    display: inline;
+}
+
+.sevenbgimg a{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2997ff;
+    margin-left: 10px;
+}
+
+
+
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.lastpara {
+    color: rgb(119, 113, 113);
+    width: 78%;
+    margin: 0 auto;
+    padding: 17px 0px 11px 0;
+    border-bottom: 1px solid rgb(119, 113, 113);
+}
+
+
+.footnotepara {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    list-style-type: none;
+    line-height: 1em;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.footnotepara a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.lastarea {
+    color: rgb(119, 113, 113);
+    width: 78vw;
+    padding-top: 20px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1em;
+}
+
+.mwshop{
+    border-bottom: 1px solid rgb(148, 148, 148);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.mwshop p{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.mwshop a {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #2997ff;
+    text-decoration: none;
+}
+
+.lastline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy a {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(53, 52, 52);
+    font-size: 12px;
+    border-right: 1px solid rgb(119, 113, 113);
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.countryname a {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(53, 52, 52);
+    font-size: 12px;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
